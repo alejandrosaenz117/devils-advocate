@@ -1,0 +1,49 @@
+# Claude Code
+.claude/
+*.claude
+CLAUDE.md
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+.next/
+
+# Local development
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Test files and test artifacts
+test/
+tests/
+test-results/
+*.test
+*.spec
+.test-cache/
