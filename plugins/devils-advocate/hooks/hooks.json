@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.last_assistant_message' 2>/dev/null | grep -qi 'ready to code' && echo '{\"additionalContext\":\"Planning session complete. Consider: What could go wrong with this plan? Use /devils-advocate to engage The Devil\"}' || exit 0"
+            "command": "echo '{\"additionalContext\":\"[Devil's Advocate Hook] Consider an adversarial review: What could go wrong with this? Try /devils-advocate to challenge assumptions.\"}'"
           }
         ]
       }
