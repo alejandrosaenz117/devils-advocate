@@ -24,7 +24,7 @@ A marketplace of Claude Code plugins focused on adversarial security and archite
 
 The tenth man. When consensus forms, it is a sign of danger. This plugin peers into the fog where failure waits. The collapse. The breach. The systems failing under weight they cannot see. It reveals where light fails and why the walls will break.
 
-**Invoke:** Mention "adversarial review" or "challenge the plan" as a skill, use `/devils-advocate [file|description|recent]` command, or it auto-triggers after planning/review agents.
+**Invoke:** Mention "adversarial review" or "challenge the plan" as a skill, or use `/devils-advocate [file|description|recent]` command.
 
 See [plugins/devils-advocate/README.md](plugins/devils-advocate/README.md) for full documentation.
 

@@ -46,17 +46,17 @@ Add the marketplace and install the plugin:
 
 ---
 
-## Three Ways to Summon The Devil's Advocate
+## Two Ways to Summon The Devil's Advocate
 
-### 1. Skill: Contextual Auto-Trigger
+### 1. Skill: Contextual Trigger
 
-The Devil's Advocate activates automatically when you ask for adversarial review.
+The Devil's Advocate activates when you ask for adversarial review.
 
 ```
 user: "Give me an adversarial review of this payment processing code"
 user: [paste code]
 
-# The Devil's Advocate skill auto-activates and produces a four-section review
+# The Devil's Advocate skill produces a four-section review
 ```
 
 **Trigger phrases:**
@@ -65,20 +65,9 @@ user: [paste code]
 - "what could go wrong with this?"
 - "summon the devil's advocate"
 - "challenge the plan"
+- "adversarial review"
 
-### 2. Agent: Proactive Chaining
-
-The Devil's Advocate automatically challenges other agents' conclusions.
-
-After a code-architect agent delivers a plan, or a reviewer approves a PR, The Devil's Advocate chains in automatically:
-
-```
-agent: code-architect outputs a microservices design
-assistant: "I'll use the devils-advocate agent to stress-test this architecture"
-# The Devil's Advocate identifies fragilities the architect missed
-```
-
-### 3. Command: Explicit On-Demand
+### 2. Command: Explicit On-Demand
 
 Use `/devils-advocate` to summon an explicit adversarial review.
 
@@ -91,7 +80,7 @@ Use `/devils-advocate` to summon an explicit adversarial review.
 # Analyzes your recent git changes
 ```
 
-The command uses `model: opus` for maximum depth and clarity. The agent and skill use `model: inherit` to respect your model choice.
+The command uses `model: opus` for maximum depth and clarity. The skill uses `model: inherit` to respect your model choice.
 
 ---
 
@@ -144,11 +133,10 @@ The Devil's Advocate adapts to your preference:
 
 | Surface     | Default   | Alternatives                                                                                         |
 | ----------- | --------- | ---------------------------------------------------------------------------------------------------- |
-| **Agent**   | `inherit` | Respects your active Claude model. No cost surprises.                                                |
 | **Skill**   | `inherit` | Contextual trigger respects your baseline model.                                                     |
 | **Command** | `opus`    | Use `/devils-advocate` for full depth. Set `model: sonnet` in `.claude` for faster, lighter reviews. |
 
-The command defaults to Opus for maximum adversarial reasoning. Sonnet is faster and lighter for rapid reviews on straightforward code. The agent and skill inherit your model choice to avoid surprise costs.
+The command defaults to Opus for maximum adversarial reasoning. Sonnet is faster and lighter for rapid reviews on straightforward code. The skill inherits your model choice to avoid surprise costs.
 
 ---
 
