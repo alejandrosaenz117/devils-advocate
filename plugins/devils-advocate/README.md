@@ -10,7 +10,7 @@ When consensus forms, it is a sign of danger. The Devil's Advocate challenges ce
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](../../LICENSE)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet.svg)](https://claude.ai/code)
-![Version 0.1.0](https://img.shields.io/badge/Version-0.1.0-green.svg)
+![Version 0.2.0](https://img.shields.io/badge/Version-0.2.0-green.svg)
 
 ---
 
